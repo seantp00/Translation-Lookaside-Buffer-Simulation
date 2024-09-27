@@ -23,8 +23,6 @@ SYSTEMC_HOME ?= ../systemc
 
 # Additional flags for the compiler
 CXXFLAGS := -std=c++14  -I$(SYSTEMC_HOME)/include -L$(SYSTEMC_HOME)/lib -lsystemc -lm
-#CXXFLAGS := -std=c++14  -I$(SYSTEMC_HOME)/include -L$(SYSTEMC_HOME)/lib -lsystemc -lm -fsanitize=address -fsanitize=undefined -fsanitize=leak -fsanitize=pointer-compare -fsanitize=pointer-subtract
-#CXXFLAGS := -std=c++14  -I$(SCPATH)/include -L$(SCPATH)/lib -lm -Wall -Wextra #-lsystemc
 
 # ---------------------------------------
 # CONFIGURATION END
